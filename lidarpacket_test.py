@@ -156,5 +156,5 @@ def main():
 
 if __name__ == "__main__":
     frames = main()
-    plt.imshow(frames[0][:, :, 1], interpolation="nearest")
+    plt.imshow(frames[120][:, :, 0])
     plt.show()
